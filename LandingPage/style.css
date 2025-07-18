@@ -1,0 +1,280 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Segoe UI', sans-serif;
+}
+body{
+	margin: 0;
+	padding: 0;
+	background: url("images/kerala-body-bg.jpeg") no-repeat center center fixed;
+	background-size: cover;	
+	font-family: 'Segoe UI', sans-serif;
+	color: #333;
+}
+header{
+	background: rgba(0, 50, 0, 0.85);
+	color: white;
+	text-align: center;
+	padding: 10px 20px;
+}
+footer{
+	background: rgba(0, 50, 0, 0.85);
+	color: white;
+	text-align: center;
+	padding: 17px 0;
+}
+.logo{
+	height: 70px;
+}
+.places{
+	padding: 5px;
+	background: transparent;
+	text-align: center;
+	color: black;
+}
+.cards{
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+	gap: 20px;
+	justify-items: center;
+	padding: 20px 0;
+	max-width: 800px;
+	margin: 0 auto;
+}
+.card{
+	background: #e0ffe0;
+	border-radius: 12px;
+	width: 250px;
+	padding: 10px;
+	text-align: justify;
+	box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+.card img{
+	width: 230px;
+	height: 150px;
+	border-radius: 10px;
+	object-fit: cover;
+}
+.about{
+	padding: 0px 10px;
+	background: transparent;
+	text-align: center;
+	color: black;
+}
+section, .form-section{
+	background: transparent;
+	padding: 10px 10px;
+	margin: 30px auto;
+	border-radius: 12px;
+	max-width: 1000px;
+	color: black;
+}
+form{
+	max-width: 350px;
+	margin: auto;
+	background: #ffffff;
+	padding: 20px;
+	border-radius: 12px;
+	display: flex;
+	flex-direction: column;
+	gap: 15px;
+	box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+}
+input, select, textarea{
+	padding: 12px;
+	border: 1px solid #ccc;
+	border-radius: 8px;
+	display:block;
+	margin-top:10px;
+	margin-bottom:10px;
+	width:100%;
+}
+label{
+	text-align: left;
+	font-weight: bold;
+	margin-top: 10px;
+}
+input[type="date"]{
+	padding: 12px;
+	border-radius: 8px;
+	border: 1px solid #ccc;
+}
+button{
+	padding: 12px;
+	background: #006400;
+	color: white;
+	border: none;
+	border-radius: 8px;
+	cursor: pointer;
+}
+button:hover{
+	background: #228B22;
+}
+a{
+	padding:5px;
+	text-decoration:none;
+	color:#242124;
+}
+a:hover{
+	color:blue;
+}
+p{
+	margin: 10px 10px 10px;
+}
+h2{
+	text-align: center;
+	padding-bottom: 20px;
+}
+.overlay{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.3);
+	z-index: -1;
+}
+.thiruvananthapuram{
+	margin: 0;
+	padding: 0;
+	background: url("images/thiruvananthapuram.jpeg") no-repeat center center fixed;
+	background-size: cover;	
+	font-family: 'Segoe UI', sans-serif;
+	color: #333;
+}
+.kollam{
+	margin: 0;
+	padding: 0;
+	background: url("images/kollam.jpeg") no-repeat center center fixed;
+	background-size: cover;	
+	font-family: 'Segoe UI', sans-serif;
+	color: #333;
+}
+.alappuzha{
+	margin: 0;
+	padding: 0;
+	background: url("images/alappuzha.jpeg") no-repeat center center fixed;
+	background-size: cover;	
+	font-family: 'Segoe UI', sans-serif;
+	color: #333;
+}
+.kochi{
+	margin: 0;
+	padding: 0;
+	background: url("images/kochi.jpeg") no-repeat center center fixed;
+	background-size: cover;	
+	font-family: 'Segoe UI', sans-serif;
+	color: #333;
+}
+.munnar{
+	margin: 0;
+	padding: 0;
+	background: url("images/munnar.jpeg") no-repeat center center fixed;
+	background-size: cover;	
+	font-family: 'Segoe UI', sans-serif;
+	color: #333;
+}
+.wayanad{
+	margin: 0;
+	padding: 0;
+	background: url("images/wayanad.jpeg") no-repeat center center fixed;
+	background-size: cover;	
+	font-family: 'Segoe UI', sans-serif;
+	color: #333;
+}
+nav{
+	color: white;
+	text-align: right;
+	padding: 10px 20px;
+}
+nav a{
+	padding:5px;
+	text-decoration:none;
+	color:white;
+}
+div#wrapper{
+	float:right;
+	width:500px;
+}
+div#header{
+	text-align:center;
+	color: black;
+}
+#center{
+	height:auto;
+	width:auto;
+}
+.admin-wrapper{
+	min-height: 100%;
+	display: flex;
+	flex-direction: column;
+}
+.main{
+	flex: 1;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	padding: 20px;
+}
+.admin-box{
+	background: white;
+	padding: 30px 25px;
+	border-radius: 15px;
+	box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+	width: 100%;
+	max-width: 350px;
+	text-align: center;
+}
+.admin-box h3{
+	margin-bottom: 15px;
+	color: darkgreen;
+}
+form input{
+	width: 100%;
+	padding: 12px;
+	margin: 10px 0;
+	border: 1px solid #ccc;
+	border-radius: 8px;
+}
+form button{
+	width: 100%;
+	padding: 12px;
+	background-color: darkgreen;
+	color: white;
+	border: none;
+	border-radius: 8px;
+	font-weight: bold;
+	cursor: pointer;
+}
+form button:hover{
+	background-color: seagreen;
+}
+.error{
+	color: red;
+	margin-bottom: 10px;
+}
+table{
+	width:95%;
+	border-collapse:collapse;
+}
+table td, table th{
+	border:2px solid;
+	padding:5px;
+	color: white;
+}
+table tr{
+	text-align:center;
+}
+strong{
+	color:red;
+	padding:5px;
+}
+i{
+	color:blue;
+	padding:5px;
+}
+h2{
+	color: black;
+}
